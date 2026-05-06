@@ -19,7 +19,10 @@ class Solution {
         1.문제: inverted binary tree 출력
         2.constraints: node 개수 min = 0, max = 100
         3.solution: left, right node swap
-        time complexity: O(n), space complexity: O(h)
+        time complexity: 
+        - BST인 경우 best case : O(log n)
+        - skwed 인 경우 worst case: O(n)
+        - space complexity: O(h)
          */
 
          if(root == null) {
